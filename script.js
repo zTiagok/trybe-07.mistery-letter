@@ -4,6 +4,7 @@ function generateLetter()
     const elementParagraph = document.getElementById('carta-gerada')
     const elementInput = document.querySelector('input')
     const splittedValue = elementValue.split(' ')
+    const styles = ['newspaper', 'magazine1', 'magazine2', 'medium', 'big', 'reallybig', 'rotateleft', 'rotateright', 'skewleft', 'skewright']
 
     if (elementInput.value.trim().length === 0)
     {
@@ -12,22 +13,22 @@ function generateLetter()
     else
     {
         
-    while (elementParagraph.firstChild)
-    {
+        while (elementParagraph.firstChild)
+        {
 
-        elementParagraph.firstChild.remove()
+            elementParagraph.firstChild.remove()
+        }
+
+        for (let index = 0; index < splittedValue.length; index += 1)
+        {
+
+            elementParagraph.innerHTML += '<span>' + splittedValue[index] + '</span>'     
+            elementParagraph.children[index].className = styles[Math.floor(Math.random() * styles.length)]
+        }   
     }
 
-    for (let index = 0; index < splittedValue.length; index += 1)
-    {
-
-        elementParagraph.innerHTML += '<span>' + splittedValue[index] + '</span>'
-    }
-    }
-
-
+    
 }
-
 
 
 
