@@ -2,8 +2,16 @@ function generateLetter()
 {
     const elementValue = document.querySelector('#carta-texto').value
     const elementParagraph = document.getElementById('carta-gerada')
+    const elementInput = document.querySelector('input')
     const splittedValue = elementValue.split(' ')
 
+    if (elementInput.value.trim().length === 0)
+    {
+        elementParagraph.innerHTML = 'por favor, digite o conteúdo da carta.'
+    }
+    else
+    {
+        
     while (elementParagraph.firstChild)
     {
 
@@ -15,6 +23,9 @@ function generateLetter()
 
         elementParagraph.innerHTML += '<span>' + splittedValue[index] + '</span>'
     }
+    }
+
+
 }
 
 
