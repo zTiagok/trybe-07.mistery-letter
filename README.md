@@ -9,7 +9,7 @@
 
   > Status: Finished ✔️
   >
-  > Conclusion Date: - 📆
+  > Conclusion Date: 30/04/2022 📆
   >
   > Version: - 🧪
   >
@@ -78,8 +78,8 @@
     </thead>
     <tbody>
       <tr>
-        <td> - </td>
-        <td> - </td>
+        <td> Here you can create a letter in which each word seems to be taken from a different comic, newspaper or magazine. </td>
+        <td> An application that turns your texts into customizable cutouts by clicking on the desired words. </td>
       </tr>
     </tbody>
   </table>
