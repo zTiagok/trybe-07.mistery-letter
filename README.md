@@ -28,9 +28,10 @@
     ℹ️ Information ℹ️
   </h3>
   <br>
-  <span> - </span> 
+  <span> Here you can create a letter in which each word seems to be taken from a different comic, newspaper or magazine.
+ </span> 
   <br><br>
-  <span> - </span>
+  <span> An application that turns your texts into customizable cutouts by clicking on the desired words. </span>
   <br>
   <hr>
   <h3>
@@ -78,8 +79,8 @@
     </thead>
     <tbody>
       <tr>
-        <td> Here you can create a letter in which each word seems to be taken from a different comic, newspaper or magazine. </td>
-        <td> An application that turns your texts into customizable cutouts by clicking on the desired words. </td>
+        <td> - </td>
+        <td> - </td>
       </tr>
     </tbody>
   </table>
