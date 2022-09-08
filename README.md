@@ -1,6 +1,6 @@
 <div align="center">
   <h3>
-    Check out this project <a href="-"> website</a>! 
+    Check out this project <a href="https://ztiagok.github.io/trybe-07.mistery-letter/"> website</a>! 
   <h3>
   <h2>
     -
@@ -58,7 +58,7 @@
     📄 Pages and Components 📄
   </h3>
   <br>
-  <span> - </span>
+  <span> Basic HTML, Javascript and CSS </span>
   <br>
   <hr>
   <h3>
