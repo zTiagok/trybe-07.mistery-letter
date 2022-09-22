@@ -62,11 +62,15 @@
   <br>
   <hr>
   <h3>
-    📄 Pages and Components 📄
+    📄 Features 📄
   </h3>
   <br>
-  <span> Basic HTML, Javascript and CSS </span>
-  <br>
+  <span> ◐ Type a phrase to decorate it. ◑ </span>
+  <br><br>
+  <span> ◐ Click on any word to change its style. ◑ </span>
+  <br><br>
+  <span> ◐ Counting the total number of words in the sentence. ◑ </span>
+  <br><br>
   <hr>
   <h3>
     📦 Frameworks and Libraries 📦
